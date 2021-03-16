@@ -1518,7 +1518,7 @@ search
   -o-transform: translate(0px, -100%) scale(0, 0);
   -ms-transform: translate(0px, -100%) scale(0, 0);
   transform: translate(0px, -100%) scale(0, 0);
-  opacity: 0;
+  opacity: 1;
 }
 #search input {
   position: absolute;
@@ -1590,6 +1590,7 @@ portfolio
 #projects .filters {
   margin-top: 50px;
   margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 #projects .filters ul {
   padding: 0;
@@ -1682,3 +1683,11 @@ portfolio
     margin-bottom: 0px;
   }
 }
+
+/* MAP */
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:90%;
+  width:70%; 
+  margin-left: 20px;}
