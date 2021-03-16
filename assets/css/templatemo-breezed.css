@@ -1589,6 +1589,7 @@ portfolio
 
 #projects .filters {
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 #projects .filters ul {
   padding: 0;
@@ -1659,6 +1660,7 @@ portfolio
 
 #projects {
   padding-top: 70px;
+  padding-bottom: 80px;
 }
 
 #projects .section-heading {
