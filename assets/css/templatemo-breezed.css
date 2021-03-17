@@ -22,6 +22,7 @@ Table of contents
 11. search
 12. portfolio
 
+
 --------------------------------------------- */
 /* 
 ---------------------------------------------
@@ -33,7 +34,12 @@ font & reset css
 ---------------------------------------------
 reset
 --------------------------------------------- 
+#searchy{
+  color: #fff;
+}
 */
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -337,6 +343,14 @@ header
   color: #231651!important;
 }
 
+#searchy{
+  color: #fff;
+}
+
+#searchy:hover{
+  color: #4dccbd;
+}
+
 .background-header .main-nav .nav li:hover a {
   color: #4dccbd!important;
 }
@@ -450,6 +464,7 @@ header
 .header-area .main-nav .nav li a.active {
   color: #fff!important;
   opacity: 1;
+  font-weight: bold;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -666,7 +681,7 @@ header
 
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
-    color: #231651;
+    color: #fff;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
@@ -1590,7 +1605,7 @@ portfolio
 #projects .filters {
   margin-top: 50px;
   margin-bottom: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 #projects .filters ul {
   padding: 0;
