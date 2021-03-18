@@ -681,16 +681,20 @@ header
 
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
-    color: #fff;
+    color: #231651;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #4dccbd!important;
+    color: #f26df9!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
   }
+  #searchy{
+    color: #231651;
+  }
+
   .header-area {
     background-color: #f7f7f7;
     padding: 0px 15px;
